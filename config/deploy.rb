@@ -4,6 +4,8 @@ lock "~> 3.18.0"
 # set :application, "my_app_name"
 # set :repo_url, "git@example.com:me/my_repo.git"
 
+set :passenger_restart_with_touch, true
+
 set :application, "myapp"
 set :repo_url, "git@github.com:yupeak/myapp.git"
 
